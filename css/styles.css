@@ -10,12 +10,14 @@ body{
 header{
     display: flex;
     height: 200px;
+    width: 100%;
     background: linear-gradient(to top right, rgb(168, 84, 84), grey);
     border-bottom: 5px solid black;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 div.logo{
 float: left;
@@ -51,11 +53,11 @@ div.logo:hover{
 /*main content flex section*/
 main{
     display: flex;
-    height: 5000px;
     flex-direction: column;
+    padding-top: 205px;
 }
 
-div.portfolio{
+div.title{
     height: 175px;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
