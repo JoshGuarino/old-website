@@ -37,11 +37,9 @@ color: whitesmoke;
 }
 div.menu:hover{
     color: black; 
-    font-size: 25pt;
+    
 }
 div.logo:hover{
-    font-size: 60px;
-    height: 55%;
     color: whitesmoke;
     border: 5px solid black;
 }
@@ -65,25 +63,25 @@ div.title{
     color: whitesmoke;
 }
 div.about{
-    height: 1000px;
+    height: 750px;
     border-top: 5px solid grey;
     background-color: whitsmoke;
     width: 100%;
 }
 div.portfolio{
-    height: 1000px;
+    height: 750px;
     border-top: 5px solid grey;
     background-color: whitsmoke;
     width: 100%;
 }
 div.experience{
-    height: 1000px;
+    height: 750px;
     border-top: 5px solid grey;
     background-color: whitsmoke;
     width: 100%;
 }
 div.contact{
-    height: 1000px;
+    height: 750px;
     border-top: 5px solid grey;
     background-color: whitsmoke;
     width: 100%;
@@ -106,9 +104,10 @@ footer{
 
 
 h1{
-
+font-size: 30pt;
 }
 
 h2{
-
+font-size: 25pt;
+padding-left: 50px;
 }
