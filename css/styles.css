@@ -11,7 +11,7 @@ header{
     height: 15vh;
     width: 100%;
     background-color: rgb(177, 65, 65);
-    border-bottom: 5px solid grey;
+    border-bottom: 4px solid grey;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -24,17 +24,17 @@ div.logo{
 float: left;
 font-family: fantasy;
 color: black;
-font-size: 75px;
-height: 100px;
+font-size: 5vw;
+height: 5vw;
 
 }
 div.menu {
 float: right;
-padding-right: 50px;
-padding-left: 50px;
+padding-right: 2vw;
+padding-left: 2vw;
 justify-content: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 20pt;
+font-size: 2vw;
 color: whitesmoke;
 }
 div.menu:hover{
@@ -57,37 +57,41 @@ main{
 
 div.title{
     height: 20vh;
-    background-color: black;
+    background:black;
     width: 100%;
     align-items: center;
     text-align: center;
     color: whitesmoke;
+    background-image: url(../images/tech3.jpg);
 }
 div.about{
     height: 85vh;
     border-top: 5px solid grey;
-    background-color: whitsmoke;
+    background-color: whitesmoke;
+    color: black;
     width: 100%;
 }
 div.portfolio{
     height: 85vh;
     border-top: 5px solid grey;
-    background-color: whitsmoke;
+    background-color: black;
+    color: whitesmoke;
     width: 100%;
 }
 div.experience{
     height: 85vh;
     border-top: 5px solid grey;
-    background-color: whitsmoke;
+    background-color: whitesmoke;
+    color: black;
     width: 100%;
 }
 div.contact{
     height: 75vh;
     border-top: 5px solid grey;
-    background-color: whitsmoke;
+    background-color: black;
+    color: whitesmoke;
     width: 100%;
 }
-
 
 
 /*footer section*/
