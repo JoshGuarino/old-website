@@ -45,14 +45,21 @@ div.logo:hover{
     color: whitesmoke;
 }
 
-
-
+nav{
+    align-self: flex-end;
+    position: fixed;
+    width: 12vw;
+    border: 5px solid grey;
+    background-color: rgb(177, 65, 65);
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
 
 /*main content flex section*/
 main{
     display: flex;
     flex-direction: column;
-    padding-top: 15vh;
 }
 
 div.title{
@@ -70,6 +77,7 @@ div.about{
     background-color: whitesmoke;
     color: black;
     width: 100%;
+    display: flex;
 }
 div.portfolio{
     height: 85vh;
@@ -77,6 +85,7 @@ div.portfolio{
     background-color: black;
     color: whitesmoke;
     width: 100%;
+    display: flex;
 }
 div.experience{
     height: 85vh;
@@ -84,12 +93,18 @@ div.experience{
     background-color: whitesmoke;
     color: black;
     width: 100%;
+    display: flex;
 }
 div.contact{
     height: 75vh;
     border-top: 5px solid grey;
     background-color: black;
     color: whitesmoke;
+    width: 100%;
+    display: flex;
+}
+div.offset{
+    height: 15vh;
     width: 100%;
 }
 
@@ -104,7 +119,7 @@ footer{
     align-items: center;
     align-content: center;
     color: whitesmoke;
-    font-size: 20pt;
+    font-size: 2vw;
 }
 
 
@@ -115,10 +130,21 @@ p{
 
 
 h1{
-font-size: 30pt;
+font-size: 4vh;
+}
+h2{
+font-size: 4vh;
+padding-left: 3vw;
+}
+h3{
+    font-size: 4vh;
 }
 
-h2{
-font-size: 25pt;
-padding-left: 50px;
+
+button{
+    background: none;
+    border: none;
 }
+
+
+button:focus {outline:0;}
