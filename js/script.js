@@ -1,6 +1,5 @@
 function home()
 {
-  //swal("home");
   $('html,body').animate({
     scrollTop: $("#title").offset().top},
     'slow');
@@ -8,7 +7,6 @@ function home()
 
 function about()
 {
-  //swal("about");
   let h = window.innerHeight;
   h = h * .15;
   $('html,body').animate({
@@ -18,7 +16,6 @@ function about()
 
 function port()
 {
-  //swal("port");
   let h = window.innerHeight;
   h = h * .15;
   $('html,body').animate({
@@ -28,7 +25,6 @@ function port()
 
 function exp()
 {
-  //swal("exp");
   let h = window.innerHeight;
   h = h * .15;
   $('html,body').animate({
@@ -38,7 +34,6 @@ function exp()
 
 function cont()
 {
-  //swal("cont");
   let h = window.innerHeight;
   h = h * .15;
   $('html,body').animate({

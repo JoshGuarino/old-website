@@ -9,34 +9,37 @@
 
 <Body>
     <header>
-        <button onclick="about()">
-            <div class="menu">About</div>
-        </button>
-        <button onclick="port()">
-            <div class="menu">Portfolio</div>
-        </button>
-        <button onclick="home()">
-            <div class="logo">JG</div>
-        </button>
-        <button onclick="exp()">
-            <div class="menu">Experience</div>
-        </button>
-        <button onclick="cont()">
-            <div class="menu">Contact</div>
-        </button>
+        <div class="right">
+            <button onclick="home()">
+                <div class="logo">JG</div>
+            </button>
+        </div>
+        <div class="left">
+            <button onclick="about()">
+                <div class="menu">About</div>
+            </button>
+            <button onclick="port()">
+                <div class="menu">Portfolio</div>
+            </button>
+            <button onclick="exp()">
+                <div class="menu">Experience</div>
+            </button>
+            <button onclick="cont()">
+                <div class="menu">Contact</div>
+            </button>
+        </div>
     </header>
 
 
-
     <main>
-        <section></section>
-        <div  id="title" class="offset"></div>
+        <div id="title" class="offset"></div>
         <div class="title">
             <h1>Josh Guarino</h1>
             <h1>Developer and IT professional</h1>
         </div>
         <div class="about" id="about">
             <h2>About</h2>
+            <img id='josh' src="images/josh.jpg" alt="Josh">
         </div>
         <div class="portfolio" id="portfolio">
             <h2>Portfolio</h2>
@@ -55,7 +58,6 @@
     </Footer>
 
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </Body>
 
