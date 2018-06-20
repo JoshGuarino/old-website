@@ -8,7 +8,7 @@ function home()
 function about()
 {
   let h = window.innerHeight;
-  h = h * .15;
+  h = h * .097;
   $('html,body').animate({
     scrollTop: $(".about").offset().top-h},
     'slow');
@@ -17,7 +17,7 @@ function about()
 function port()
 {
   let h = window.innerHeight;
-  h = h * .15;
+  h = h * .097;
   $('html,body').animate({
     scrollTop: $(".portfolio").offset().top-h},
     'slow');
@@ -26,7 +26,7 @@ function port()
 function exp()
 {
   let h = window.innerHeight;
-  h = h * .15;
+  h = h * .097;
   $('html,body').animate({
     scrollTop: $(".experience").offset().top-h},
     'slow');
@@ -35,7 +35,7 @@ function exp()
 function cont()
 {
   let h = window.innerHeight;
-  h = h * .15;
+  h = h * .097;
   $('html,body').animate({
     scrollTop: $(".contact").offset().top-h},
     'slow');

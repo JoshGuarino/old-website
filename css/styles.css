@@ -7,7 +7,7 @@ body{
 
 header{
     display: flex;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     background-color: rgb(177, 65, 65);
     flex-direction: column;
@@ -16,36 +16,38 @@ header{
     justify-content: center;
     position: fixed;
     top: 0;
+    border-bottom: grey solid 2.5px;
+    z-index:10;
 }
 
 div.left{
     align-self: flex-start;
-    padding-left: 5vw;
+    padding-left: 4vw;
 }
 div.right{
     align-self: flex-end;
-    padding-right: 10vw;
+    padding-right: 4vw;
 }
-div.logo{
+.logo{
 font-family: fantasy;
 color: black;
-font-size: 5vw;
-height: 5vw;
+font-size: 4vw;
+height: 4vw;
 }
 
-div.menu {
+.menu {
 padding-right: 1vw;
 padding-left: 1vw;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 2vw;
+font-size: 1.5vw;
 color: whitesmoke;
 }
 
-div.menu:hover{
+.menu:hover{
     color: black; 
 }
 
-div.logo:hover{
+.logo:hover{
     color: whitesmoke;
 }
 
@@ -64,10 +66,12 @@ nav{
 main{
     display: flex;
     flex-direction: column;
+    border: 0px;
+    margin: 0px;
 }
 
 div.title{
-    height: 85vh;
+    height: 90vh;
     background:black;
     width: 100%;
     align-items: center;
@@ -76,7 +80,6 @@ div.title{
     background-image: url(../images/tech3.jpg);
 }
 div.about{
-    height: 85vh;
     background-color: whitesmoke;
     color: black;
     width: 100%;
@@ -84,28 +87,26 @@ div.about{
     flex-direction: column;
 }
 div.portfolio{
-    height: 85vh;
     background-color: black;
     color: whitesmoke;
     width: 100%;
-    display: flex;
 }
 div.experience{
-    height: 85vh;
+    height: 90vh;
     background-color: whitesmoke;
     color: black;
     width: 100%;
     display: flex;
 }
 div.contact{
-    height: 75vh;
+    height: 80vh;
     background-color: black;
     color: whitesmoke;
     width: 100%;
     display: flex;
 }
 div.offset{
-    height: 15vh;
+    height: 10vh;
     width: 100%;
 }
 
@@ -119,26 +120,37 @@ footer{
     align-content: center;
     color: whitesmoke;
     font-size: 2vw;
+    border-top: grey solid 2.5px;
 }
 
 
-p{
+ p.one{
     text-align: center;
     font-size: 1.25vw;
+    padding-top: 10vh;
+    padding-right: 5vw;
 }
+p.two{
+    text-align: center;
+    font-size: 1.25vw;
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
 
 h1{
 font-size: 2.5vw;
 padding: 5vh;
 }
 h2{
-font-size: 2.5vw;
-padding-left: 3vw;
+font-size: 3vw;
+padding-top: 5vh;
+padding-right: 5vw;
 }
 h3{
-    font-size: 2vw;
-    align-self: center;
-    padding-left: 25vw;
+    font-size: 3vw;
+    padding-top: 5vh;
+    padding-left: 5vw;
 }
 
 button{
@@ -150,31 +162,14 @@ button:focus {
     outline:0;
 }
 
+#josh{
+    width: 25vw;
+    align-self: flex-start;
+    border: solid black 5px;
+    margin: 10vh;
+}
 
-.swal-overlay {
-    background-color: rgba(61, 61, 61, 0.75);
-  }
-
-.swal-modal {
-    background-color: rgb(177, 65, 65);
-    border: 3px solid whitesmoke;
-  }
+#github{
+    width: 25vw;
+}
   
-
-.swal-text {
-      color:whitesmoke;
-      font-size: 2vw;
-  }
-
-.swal-button {
-    background-color: whitesmoke;
-    color: rgb(177, 65, 65);
-  }
-
-
-  #josh{
-      padding-top: 5vh;
-      padding-left: 5VW;
-      width: 20vw;
-      align-self: flex-start;
-  }

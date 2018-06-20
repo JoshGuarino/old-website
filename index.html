@@ -3,29 +3,31 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Josh Guarino</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <Body>
     <header>
-        <div class="right">
+        <div class="left">
             <button onclick="home()">
-                <div class="logo">JG</div>
+                <span class="logo">JG</span>
             </button>
         </div>
-        <div class="left">
+        <div class="right">
             <button onclick="about()">
-                <div class="menu">About</div>
+                <span class="menu">About</span>
             </button>
             <button onclick="port()">
-                <div class="menu">Portfolio</div>
+                <span class="menu">Portfolio</span>
             </button>
             <button onclick="exp()">
-                <div class="menu">Experience</div>
+                <span class="menu">Experience</span>
             </button>
             <button onclick="cont()">
-                <div class="menu">Contact</div>
+                <span class="menu">Contact</span>
             </button>
         </div>
     </header>
@@ -34,15 +36,42 @@
     <main>
         <div id="title" class="offset"></div>
         <div class="title">
-            <h1>Josh Guarino</h1>
-            <h1>Developer and IT professional</h1>
+            <span>
+                <h1>Hi, I'm Josh.</h1>
+                <h1>I'm a Developer and IT professional</h1>
+            </span>
         </div>
         <div class="about" id="about">
-            <h2>About</h2>
-            <img id='josh' src="images/josh.jpg" alt="Josh">
+            <div class='row'>
+                <div class='col-lg-6' align="center">
+                    <img id='josh' class="" src="images/josh.jpg" alt="Josh">
+                </div>
+                <div class='col-lg-6' align="center">
+                    <h2 id="about">About</h2>
+                    <p class="one">My name is Josh Guarino. I am a developer and IT professional and would like welcome you to my website.
+                        I graduated from Fredonia State in 2011, and have had numerous software testing and IT support experience.
+                        I have also completed a web development training program though MCC's corporate College. My hobbies
+                        outside of my career include running, video games and pretty much anything nerdy. I am very accomplished
+                        runner, having competed at national championships. I try to bring that same dedication, hardwork,
+                        and attention to detail to my career.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="portfolio" id="portfolio">
-            <h2>Portfolio</h2>
+            <div class="row">
+                <div class='col-lg-6' align="center">
+                    <h3>Portfolio</h3>
+                    <p class="two">This website is an example of development ability. I have also done numerous side projects to test my
+                        coding ability. Examples of this work can be seen on my github account at https://github.com/JoshGuarino,
+                        click on the logo tot he right to be taken ot my github.</p>
+                </div>
+                <div class='col-lg-6' align="center">
+                    <a href="https://github.com/JoshGuarino">
+                        <img id="github" src="images/github.png" alt="github">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="experience" id="experience">
             <h2>Experience</h2>
@@ -59,6 +88,7 @@
 
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </Body>
 
 
