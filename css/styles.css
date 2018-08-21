@@ -39,26 +39,27 @@ div.right{
     padding-right: 4vw;
 }
 .logo{
-font-family: fantasy;
 color: black;
 font-size: 4vw;
 height: 4vw;
+font-weight: bold;
 }
 
 .menu {
 padding-right: 1vw;
 padding-left: 1vw;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 1.5vw;
 color: whitesmoke;
 }
 
 .menu:hover{
     color: black; 
+    cursor: pointer;
 }
 
 .logo:hover{
     color: whitesmoke;
+    cursor: pointer;
 }
 
 main{
@@ -146,14 +147,11 @@ h3{
     padding-left: 5vw;
 }
 
-button{
+a{
     background: none;
     border: none;
 }
 
-button:focus {
-    outline:0;
-}
 
 #josh{
     width: 25vw;
@@ -212,9 +210,9 @@ a:hover{
         font-size: 15pt;
     }
     span.logo{
-        font-size: 25pt;
+        font-size: 22pt;
     }
     span.menu{
-        font-size: 12.5pt;
+        font-size: 11pt;
     }
 }
