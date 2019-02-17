@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <Body>
+
     <header>
-        <div class="left">
+        <div class="left"  data-aos="fade-right">
             <a onclick="home()">
                 <span class="logo">JG</span>
             </a>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
             <a onclick="about()">
                 <span class="menu">About</span>
             </a>
@@ -38,22 +40,28 @@
         <div id="title" class="offset"></div>
         <div class="title">
             <span>
-                <h1>Hi, I'm Josh.</h1>
-                <h1>I'm a Software Engineer/Dev and IT professional</h1>
+                <h1 data-aos="fade-down">Hi, I'm Josh.</h1>
+                <h1 data-aos="fade-down">I'm a Software Engineer/Dev and IT professional</h1>
             </span>
         </div>
         <div class="about">
             <div class='row'>
-                <div class='col-lg-6' align="center">
+                <div class='col-lg-6' align="center" data-aos="fade-right">
                     <img id='josh' class="" src="images/josh.jpg" alt="Josh">
                 </div>
-                <div class='col-lg-6' align="center">
+                <div class='col-lg-6' align="center" data-aos="fade-left">
                     <h2 id="about">About</h2>
-                    <p class="one">My name is Josh Guarino. I am a developer and IT professional and would like welcome you to my website.
-                        I graduated from Fredonia State in 2011, and have had numerous software testing and IT support experience.
-                        I have also completed a web development training program though MCC's corporate college in 2018. My hobbies
-                        outside of my career include running, video games and pretty much anything nerdy. I am a very accomplished
-                        runner, having competed at several national championships. I try to bring that same dedication, hardwork,
+                    <p class="one">My name is Josh Guarino. I am a developer and IT professional and would like welcome
+                        you to my website.
+                        I graduated from Fredonia State in 2011, and have had numerous software testing and IT support
+                        experience.
+                        I have also completed a web development training program though MCC's corporate college in
+                        2018. I currrently work
+                        for the Rochester Institute of Technology as an Applicaiton Software Engineer. My hobbies
+                        outside of my career include running, video games and pretty much anything nerdy. I am a very
+                        accomplished
+                        runner, having competed at several national championships. I try to bring that same dedication,
+                        hardwork,
                         and attention to detail to my career.
                     </p>
                 </div>
@@ -61,13 +69,15 @@
         </div>
         <div class="portfolio">
             <div class="row">
-                <div class='col-lg-6' align="center">
+                <div class='col-lg-6' align="center" data-aos="fade-right">
                     <h3>Portfolio</h3>
-                    <p class="two">This website is an example of my development ability. I have also done numerous side projects to test my
-                        coding ability. Examples of this work can be seen on my github account at https://github.com/JoshGuarino,
+                    <p class="two">This website is an example of my development ability. I have also done numerous side
+                        projects to test my
+                        coding ability. Examples of this work can be seen on my github account at
+                        https://github.com/JoshGuarino,
                         click on the logo to the right to be taken to my github.</p>
                 </div>
-                <div class='col-lg-6' align="center">
+                <div class='col-lg-6' align="center" data-aos="fade-left">
                     <a href="https://github.com/JoshGuarino">
                         <img id="github" src="images/github.png" alt="github">
                     </a>
@@ -76,11 +86,11 @@
         </div>
         <div class="experience">
             <div class="row">
-                <div class="col-lg-6" align="center">
+                <div class="col-lg-6" align="center" data-aos="fade-right">
                     <img id="exp" src="images/exp.jpg" alt="exp">
                     <h4>Not actively looking for work but I am open to the right opportunity.</h4>
                 </div>
-                <div class="col-lg-6" align="center">
+                <div class="col-lg-6" align="center" data-aos="fade-left">
                     <h1>Experience</h1>
                     <h4>Skills</h4>
                     <p>
@@ -106,7 +116,7 @@
             </div>
             <div class="contact">
                 <div class="row">
-                    <div class="col-lg-6" align="center">
+                    <div class="col-lg-6" align="center" data-aos="fade-up">
                         <h3>Contact</h3>
                         <p class="two">Please feel free to send an email using this
                             <a href="mailto:guar0638@fredonia.edu">
@@ -114,7 +124,7 @@
                             </a>
                             <br>Phone calls available upon request.</p>
                     </div>
-                    <div class="col-lg-6" align="center">
+                    <div class="col-lg-6" align="center" data-aos="fade-up">
                         <img id="cont" src="images/contact.jpg" alt="cont">
                     </div>
                 </div>
@@ -130,6 +140,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </Body>
 
 
